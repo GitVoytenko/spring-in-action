@@ -1,10 +1,10 @@
-package com.github.gitvoytenko.springinaction.tococloud;
+package com.github.gitvoytenko.springinaction.tacocloud;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class TocoCloudApplicationTests {
+class TacoCloudApplicationTests {
 
 	@Test
 	void contextLoads() {
