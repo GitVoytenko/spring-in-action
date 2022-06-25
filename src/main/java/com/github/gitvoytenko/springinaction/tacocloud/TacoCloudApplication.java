@@ -1,13 +1,13 @@
-package com.github.gitvoytenko.springinaction.tococloud;
+package com.github.gitvoytenko.springinaction.tacocloud;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class TocoCloudApplication {
+public class TacoCloudApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(TocoCloudApplication.class, args);
+		SpringApplication.run(TacoCloudApplication.class, args);
 	}
 
 }
