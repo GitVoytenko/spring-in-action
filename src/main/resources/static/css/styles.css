@@ -1,0 +1,24 @@
+h1 {
+    text-align: center;
+}
+
+img.displayed {
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+    width:500px
+}
+
+.grid {
+    margin: 0 auto;
+    background: black;
+    width: 400px
+    height: 400px;
+    padding: 20px;
+    color: white;
+    column-count: 2;
+}
+
+.ingredient-group {
+
+}
