@@ -7,7 +7,14 @@ import com.github.gitvoytenko.springinaction.tacocloud.tacos.TacoOrder;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
+
 import org.springframework.web.bind.annotation.*;
+
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.ModelAttribute;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.SessionAttributes;
+
 
 import java.util.Arrays;
 import java.util.List;
@@ -56,6 +63,7 @@ public class DesignTacoController {
         return "design";
     }
 
+
     @PostMapping
     public String processTaco(Taco taco, @ModelAttribute TacoOrder tacoOrder) {
         tacoOrder.addTaco(taco);
@@ -63,6 +71,7 @@ public class DesignTacoController {
 
         return "redirect:/orders/current";
     }
+
 
     private Iterable<Ingredient> fillterByType(List<Ingredient> ingredients, Type type) {
         return ingredients.stream()

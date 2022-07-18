@@ -1,5 +1,7 @@
 <!DOCTYPE html>
+
 <html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
+
 
 <head>
     <title>Taco Cloud</title>
@@ -8,7 +10,9 @@
 
 <body>
 <h1>Design your taco!</h1>
+
 <img class="taco-pic" th:src="@{/images/TacoCloud.png}" style="width:500px">
+
 
 <form method="POST" th:object="${taco}">
     <div class="grid">
