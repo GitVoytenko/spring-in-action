@@ -2,11 +2,13 @@ h1 {
     text-align: center;
 }
 
-img.displayed {
+
+.taco-pic {
     display: block;
     margin-left: auto;
     margin-right: auto
-    width:500px
+
+
 }
 
 .grid {
@@ -18,6 +20,12 @@ img.displayed {
     color: white;
     column-count: 2;
 }
+
+
+#another {
+    background-color: yellow;
+}
+
 
 .ingredient-group {
 
