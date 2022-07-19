@@ -25,3 +25,7 @@ h1 {
 .ingredient-group {
 
 }
+
+.validationError {
+    color: red;
+}
